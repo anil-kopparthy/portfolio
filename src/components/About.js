@@ -20,11 +20,12 @@ const About = () => {
             <p className='leading-loose'>
               Experienced Web developer specializing in front end development
               with a demonstrated history of working on various technologies.
-              Currently I'm a Front End Developer at Wells Fargo in San
-              Francisco aiding the organization in migrating the legacy apps to
-              modern tech stack and pioneer newer technologies to remodel the
-              architecture. Strong engineering professional with a Masters
-              degree focused in Computer Science
+              Currently at Wells Fargo I'm aiding the organization in migrating
+              the legacy apps to modern tech stack and pioneer newer
+              technologies to remodel the architecture. Strong engineering
+              professional with a Masters degree focused in Computer Science.
+              <br />
+              Apart from tech, I love to hike, run, play sports and stay active.
             </p>
           </div>
         </div>
