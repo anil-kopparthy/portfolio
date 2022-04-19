@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Ak from '../assets/ak.png'
+import resume from '../assets/resume.pdf'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -113,16 +114,16 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      {/* <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href=''
             >
               Linkedin <FaLinkedin size={30} />
             </a>
-          </li>
+          </li> */}
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
@@ -146,13 +147,15 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href=''
+              href={resume}
+              target='_blank'
+              rel='noreferrer'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
-      </div> */}
+      </div>
     </div>
   )
 }

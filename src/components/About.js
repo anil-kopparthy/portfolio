@@ -5,7 +5,7 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
+          <div className='pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               About
             </p>
@@ -14,18 +14,19 @@ const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-left text-4xl font-bold'>
-            <p>Currently working as Sr Software Engineer at Wells Fargo</p>
+            <p>Currently working as Senior Software Engineer at Wells Fargo</p>
           </div>
           <div>
             <p className='leading-loose'>
-              Experienced Web developer specializing in front end development
-              with a demonstrated history of working on various technologies.
-              Currently at Wells Fargo I'm aiding the organization in migrating
-              the legacy apps to modern tech stack and pioneer newer
-              technologies to remodel the architecture. Strong engineering
-              professional with a Masters degree focused in Computer Science.
+              Experienced web developer with a focus on front end development
+              with a demonstrated history of working with a variety of
+              technologies. At Wells Fargo, I'm currently assisting the company
+              in transitioning legacy apps to a modern tech stack and pioneering
+              innovative technologies to remodel the architecture. Professional
+              engineer with a Masters degree focused in Computer Science.
               <br />
-              Apart from tech, I love to hike, run, play sports and stay active.
+              Aside from technology, I enjoy hiking, running, and staying
+              active.
             </p>
           </div>
         </div>
