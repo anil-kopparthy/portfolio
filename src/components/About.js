@@ -18,12 +18,13 @@ const About = () => {
           </div>
           <div>
             <p className='leading-loose'>
-              Experienced web developer with a focus on front end development
-              with a demonstrated history of working with a variety of
-              technologies. At Wells Fargo, I'm currently assisting the company
-              in transitioning legacy apps to a modern tech stack and pioneering
-              innovative technologies to remodel the architecture. Professional
-              engineer with a Masters degree focused in Computer Science.
+              4 years of professional web development expertise with a focus on
+              front end development with a demonstrated history of working with
+              a range of technologies. At Wells Fargo, I'm currently assisting
+              the company in transitioning legacy apps to a modern tech stack
+              and pioneering innovative technologies to remodel the
+              architecture. Professional engineer with a Masters degree focused
+              in Computer Science.
               <br />
               Aside from technology, I enjoy hiking, running, and staying
               active.
